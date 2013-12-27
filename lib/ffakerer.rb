@@ -1,8 +1,8 @@
 module Faker
   VERSION = "1.0.0"
 
-  require 'ffakererer/utils/array_utils'
-  require 'ffakererer/utils/module_utils'
+  require 'ffakerer/utils/array_utils'
+  require 'ffakerer/utils/module_utils'
 
   extend ModuleUtils
 

@@ -18,3 +18,4 @@ end
 
 fork { run("faker") }; Process.wait
 fork { run("ffaker") }; Process.wait
+fork { run("ffakerer") }; Process.wait

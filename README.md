@@ -1,6 +1,6 @@
 # ffaker
 
-[ffaker](http://rubygems.org/gems/ffaker) is a rewrite of [faker](http://rubygems.org/gems/faker).
+[ffakerer](http://rubygems.org/gems/ffakerer) is based on [ffaker](http://rubygems.org/gems/ffaker) which is a rewrite of [faker](http://rubygems.org/gems/faker).
 
 ## Usage
 
@@ -10,19 +10,13 @@ Faker::Name.name => "Christophe Bartell"
 Faker::Internet.email => "kirsten.greenholt@corkeryfisher.info"
 ```
 
-## ffaker vs faker
+## ffakerer vs. ffaker vs faker
 
-The faker and ffaker APIs are mostly the same, although the API on ffaker keeps
-growing with its users additions. In general, the only difference is that you
-need to:
+"The faker and ffaker APIs are mostly the same..." that _mostly_ the same is where ffakerer comes in.
+The goal of ffakerer is to provide the speed boost of ffaker while providing a parallel API to faker. 
+With ffakerer you get all the efficiency benefits of ffaker in a truly 'drop in' replacement for faker.
 
-    gem install ffaker
-
-and then
-
-    require 'ffaker'
-
-instead of "faker" with only one f.
+## From here on out this README is basically Emmanuel's 
 
 ## ffaker is faster... does it really matter?
 
@@ -57,8 +51,6 @@ generating 10000 names (ffaker 1.7.0)  0.040000   0.000000   0.040000 (  0.04591
 
 ## Contributors
 
-A lot of people have contributed to ffaker. Check [this list](https://github.com/EmmanuelOga/ffaker/graphs/contributors).
-
 If you want to add new modules or localization data, use one of the
 [directories for data files](https://github.com/EmmanuelOga/ffaker/tree/master/lib/ffaker/data)
 (or create a new one!).
@@ -89,5 +81,8 @@ name will be set with data from ffaker/data/name/first_names.
 
 ## Copyright
 
-Copyright (c) 2013 Emmanuel Oga. See LICENSE for details.
+Copyright (c) 2013 Luke Inglis See LICENSE for details.
+
+Copyright (c) 2013 Emmanuel Oga
+
 Copyright (c) 2007 Benjamin Curtis
