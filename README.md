@@ -1,4 +1,4 @@
-# ffaker
+# ffakerer
 
 [ffakerer](http://rubygems.org/gems/ffakerer) is based on [ffaker](http://rubygems.org/gems/ffaker) which is a rewrite of [faker](http://rubygems.org/gems/faker).
 
